@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#preview {
+  max-width: 100%;
+  display: none;
+}
+
+#predictions {
+  list-style-type: none;
+  padding: 0;
+}

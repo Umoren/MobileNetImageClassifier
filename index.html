@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MobileNet Image Classifier</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>MobileNet Image Classifier</h1>
+    <p>Select an image to classify:</p>
+    <input type="file" id="inputImage" accept="image/*" />
+    <img id="preview" src="" alt="" />
+    <h2>Predictions:</h2>
+    <ul id="predictions"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"></script>
+    <!-- Load the MobileNet model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
