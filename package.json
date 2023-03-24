@@ -1,0 +1,24 @@
+{
+  "name": "mobile-net-app",
+  "version": "1.0.0",
+  "description": "The MobileNet model is a convolutional neural network (CNN) designed for efficient image classification tasks, particularly on mobile and embedded devices.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umoren/MobileNetImageClassifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umoren/MobileNetImageClassifier/issues"
+  },
+  "homepage": "https://github.com/Umoren/MobileNetImageClassifier#readme",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^4.2.0"
+  }
+}
